@@ -1,0 +1,13 @@
+{
+  "name": "mailspring-theme-contrast",
+  "title": "Contrast Theme",
+  "displayName": "Contrast Theme",
+  "theme": "ui",
+  "version": "0.1.0",
+  "description": "Maksimusyan themes: contrast edition",
+  "license": "MIT",
+  "engines": {
+    "mailspring": "*"
+  }
+}
+
