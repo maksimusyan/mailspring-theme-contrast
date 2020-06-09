@@ -1,0 +1,41 @@
+.outline-view{
+  & .heading {
+    display: flex;
+    align-items: center;
+    cursor: default;
+    color: #80c7de;
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 5px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+  }
+  & .item {
+    color: #fffdfd;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-right: 14px;
+    line-height: 1rem;
+    clear: both;
+    height: 32px;
+    overflow: hidden;
+    letter-spacing: 0.3px;
+
+    & .item-count-box {
+      order: 3;
+      flex-shrink: 0;
+      font-weight: 600;
+      color: #94bac5;
+      margin-left: 8px;
+      outline: 1px solid #94bac5;
+    }
+  }
+}
+.item-container + .selected {
+  background: #eee;
+}

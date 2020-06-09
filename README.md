@@ -29,7 +29,7 @@ Creating a new theme in Mailspring is easy! Here's how you can do it.
 
    ```
    AppEnv.themes.setActiveTheme('ui-light');
-   AppEnv.themes.setActiveTheme('your-theme-name');
+   AppEnv.themes.setActiveTheme('mailspring-theme-contrast');
    ```
 
 5. Once you're happy with your theme, check how it looks in the theme picker
